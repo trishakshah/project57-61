@@ -28,3 +28,16 @@ p {
     cursor: pointer;
     color: black;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    tranform: scale(0.9);
+}
